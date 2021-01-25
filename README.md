@@ -2,7 +2,7 @@
 Brain-IoT-Robots Simulation
 
 **Five bundles are now available for deployment**
-The repository contains the the Maven projecst related to the ROBOTs orchestration:
+The repository contains the Maven projecst related to the ROBOTs orchestration:
 
 * 1- door.api
 * 2- door.impl
