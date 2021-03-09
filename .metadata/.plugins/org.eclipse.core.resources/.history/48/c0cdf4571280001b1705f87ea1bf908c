@@ -1,0 +1,252 @@
+package org.lib;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.Random;
+
+
+
+
+public class Command {
+
+	
+	int generate(){
+		Random rand = new Random();
+		return rand.nextInt() % 2;
+	}
+	
+	public void finish(){
+
+		System.out.println("         ************************************");
+		System.out.println("         ****************  END  *************");
+		System.out.println("         ************************************");
+
+	}
+	
+	public void waitForTask(){
+		int seconds=10;
+		System.out.println("         ************************************");
+		System.out.println("         *******  WAIT FOR 10 SECNODS  ******");
+		System.out.println("         ************************************");
+		try
+		{ 
+		    Thread.sleep(1000 * seconds);
+		}
+		catch(InterruptedException ex)
+		{
+		    Thread.currentThread().interrupt();
+		}
+	}
+	
+	public int checkRobotReadyRequest(int req, int robotID){
+		int isReady = generate();
+		
+		return isReady;
+		
+	}
+	public int robotReadyResponse(int req, int robotID){
+		int isReady = generate();
+		
+		return isReady;
+		
+	}
+	
+	public void sendNewPickPointRequest(int req, int robotID){
+		
+		double x = 0;
+		double y = 0;
+		double z = 0;
+
+	}
+	public int sendNewPickPointResponse(int req, int robotID){
+		
+		double x = 0;
+		double y = 0;
+		double z = 0;
+
+		return 1;//generate();
+	}
+	
+	public int sendGoto(int robot, int x){
+		return 1;//generate();
+		
+	}
+	
+	public int hasNewTask(int req, int robotID){
+		
+		return 1;//generate();
+		
+	}
+	
+	public int checkMerker(int req, int robotID){
+		return 1;//generate();
+		
+	}
+	public int markerReturn(int req, int robotID){
+		return 1;//generate();
+		
+	}
+	public int cartMovedNotice(int req, int robotID){
+		return 1;//generate();
+		
+	}
+	public int noCartNotice(double x,double y,double z){
+		return 1;//generate();
+		
+	}
+	public int cartNoticeResponse( ){
+		return 1;//generate();
+		
+	}
+	
+	public int pickcart(int req, int MarkerID){
+		return 1;//generate();
+		
+	}
+
+	public int openDoor(int req, int MarkerID){
+		return 1;//generate();
+		
+	}
+	
+	public int sendStoragePointRequest (int REQ, int ROBOTID) { return 1;}
+	public int doorStatusRequest (int REQ, int ROBOTID) {return 1;}
+	public int doorStatusResponse (int REQ, int ROBOTID) {return 1;}
+	public int openDoorRequest (int REQ, int ROBOTID) {return 1;}
+	public int openDoorResponse (int REQ, int ROBOTID) {return 1;}
+	public int receiveStoragePointResponse (int REQ, int ROBOTID) {return 1;}
+	public int hasNewpoint()   {return 1;}
+	   
+	public void pickCart(){
+		
+	}
+	
+	public void openDoor(){
+		
+	}
+	
+	public int placeCart(int req, int MarkerID){
+		return 1;//generate();
+		
+	}
+	
+	public int dockingRequest(int req, int MarkerID){
+		return MarkerID;
+		
+	}
+	public int dockingResponse(int req, int MarkerID){
+		return 1;//generate();
+	}
+	
+	public  void write(int robot_id, String str){
+		
+		System.out.println("ROBOT :  "+ robot_id+ " "+str);
+	}
+	
+	public  void writePosition(){
+		
+		System.out.println("ROBOT : SEND POSITION ");
+		
+
+	}
+	
+	public  void writeMarker(){
+		
+		System.out.println("ROBOT : SEND MARKER IN SIGHT ");
+		
+	}
+	
+	public  void writeAvailability( ){
+		
+		System.out.println("ROBOT : SEND AVAILABILITY ");
+		
+		
+	}
+	
+	public  void writeGotoAdd( ){
+		
+		System.out.println("ROBOT : SEND GOTO ADD ");
+	
+		
+	}
+	
+	public  void writeGotoCancel( ){
+		
+		System.out.println("ROBOT : SEND GOTO CANCEL ");
+
+		
+	}
+	
+	public  void writeGotoQueryState( ){
+		
+		System.out.println("ROBOT : SEND GOTO QUERY STATE ");
+
+		
+	}
+	
+	public  void writePickAdd( ){
+		
+		System.out.println("ROBOT : SEND PICK ADD ");
+
+		
+	}
+	
+	public static void writePickCancel( ){
+		
+		System.out.println("ROBOT : SEND PICK CANCEL ");
+
+		
+	}
+	
+	public  void writePickQueryState( ){
+		
+		System.out.println("ROBOT : SEND PICK QUERY STATE ");
+
+		
+	}
+	
+
+	public  void writePlaceAdd( ){
+		
+		System.out.println("ROBOT : SEND PLACE ADD ");
+
+		
+	}
+	
+	public  void writePlaceCancel( ){
+		
+		System.out.println("ROBOT : SEND PLCAE CANCEL ");
+
+		
+	}
+	
+	public  void writePlaceQueryState( ){
+		
+		System.out.println("ROBOT : SEND PLACE QUERY STATE ");
+
+		
+	}
+
+	
+
+	public  void writeChargeAdd( ){
+		
+		System.out.println("ROBOT : SEND CHARGE ADD ");
+
+		
+	}
+	
+	public  void writeChargeCancel( ){
+		
+		System.out.println("ROBOT : SEND CHARGE CANCEL ");
+	
+		
+	}
+
+
+}

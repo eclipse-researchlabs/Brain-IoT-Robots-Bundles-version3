@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1606249398659_0" label="Java Main Sources" name="main"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1606249398668_1" label="Java Test Sources" name="test"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1606741785536_3" label="smartbehavior" name="smartbehavior">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/door.api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eu.brain.iot.single-framework-example" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/door.impl" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eu.brain.iot.robot.api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eu.brain.iot.robot.behaviour" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1606249400061_2" label="Window Working Set" name="Aggregate for window 1606249400060"/>
+</workingSetManager>

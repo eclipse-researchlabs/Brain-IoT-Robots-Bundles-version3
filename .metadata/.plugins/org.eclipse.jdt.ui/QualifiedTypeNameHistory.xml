@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="eu.brain.iot.robot.behaviour.RobotBehaviour"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ScheduledExecutorService"/>
+<fullyQualifiedTypeName name="eu.brain.iot.robot.events.QueryStateValueReturn"/>
+<fullyQualifiedTypeName name="eu.brain.iot.robot.events.QueryStateValueReturn.CurrentState"/>
+<fullyQualifiedTypeName name="eu.brain.iot.service.robotic.door.api.DoorStatusRequest.State"/>
+<fullyQualifiedTypeName name="eu.brain.iot.warehouse.events.DockingRequest"/>
+<fullyQualifiedTypeName name="org.osgi.service.cm.ConfigurationAdmin"/>
+<fullyQualifiedTypeName name="org.osgi.service.log.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.osgi.service.log.FormatterLogger"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.ReferenceCardinality"/>
+</qualifiedTypeNameHistroy>
